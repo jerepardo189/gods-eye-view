@@ -1,0 +1,9 @@
+{
+  "name": "God's Eye View (phone)",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [4173],
+  "portsAttributes": {
+    "4173": {"label": "God's Eye View", "onAutoForward": "silent"}
+  },
+  "postStartCommand": "bash .devcontainer/start.sh"
+}
